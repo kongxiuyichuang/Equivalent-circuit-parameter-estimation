@@ -4,4 +4,4 @@ The equivalent circuit parameter estimation repository provides particle swarm a
 1.The offline estimation folder provides the PSO algorithm and fmincon(matlab provide) to estimate the first-order equivalent circuit and second-order equivalent circuit parameters.
  
 
-2.The online estimation folder provides the AFFFRLS algorithm to estimate the first-order equivalent circuit parameters
+2.The online estimation folder provides the AFFRLS algorithm to estimate the first-order equivalent circuit parameters
