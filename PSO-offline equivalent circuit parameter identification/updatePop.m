@@ -35,7 +35,7 @@ for i = 1:popsize
 
     % Velocity Mirror Effect
     IsOutside=(pop(i,:)<lb | pop(i,:)>ub);
-    vel(IsOutside,:)=- vel(IsOutside,:);
+    vel(i,IsOutside)=- vel(i,IsOutside);
 
     % Apply Position Limits
     pop(i,:) = max(pop(i,:),lb);
